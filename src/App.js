@@ -1,9 +1,15 @@
 import "./App.css";
+import Book from "./Book";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Booklist</h1>
+      <section>
+        <Book />
+        <Book />
+        <Book />
+        <Book />
+      </section>
     </div>
   );
 }
